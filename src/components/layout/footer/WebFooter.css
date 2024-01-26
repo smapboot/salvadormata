@@ -1,0 +1,10 @@
+.smapFooter{
+    position: relative;
+}
+.smapFooter{
+    background-color: silver;
+    color: #363232;
+}
+.smapFooter a {
+    color: #08c;
+}

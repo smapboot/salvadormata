@@ -1,0 +1,16 @@
+.smapFlexContent{
+    align-content: center;
+    margin: 5px auto;
+    padding: 0 20px 50px;
+    min-height: calc(100vh - 120px);
+    width: 100%;
+    text-align: justify;
+}
+.mainFullPage{
+    width: 100% !important;
+}
+@media (min-width: 997px){
+    .mainSinglePage{
+        max-width: 55% !important;
+    }
+}

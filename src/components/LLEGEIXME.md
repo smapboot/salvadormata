@@ -1,0 +1,1 @@
+En aquest directori afegiré components compartibles entre tota l'APP

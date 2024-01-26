@@ -1,0 +1,1 @@
+En aquest directori afegiré entitats complertes (Controladors i vistes)

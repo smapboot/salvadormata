@@ -1,0 +1,16 @@
+.smapNavBar{
+
+}
+.smapLinkLogo{
+    width: 40px;
+}
+.smapNavLink{
+
+}
+.smapNavLink:hover{
+    font-weight: bold;
+}
+.smapNavLink.active a{
+    font-weight: bold;
+    color: #08c;
+}
