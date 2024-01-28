@@ -4,16 +4,19 @@ import './styles'
 import Routing from "./core/Routing";
 import UserProvider from "./contexts/UserProvider";
 import UriProvider from "./contexts/UriProvider";
+import LocaleProvider from "./contexts/locale/LocaleProvider";
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <UriProvider>
-          <UserProvider>
-            <Routing/>
-          </UserProvider>
-        </UriProvider>
+        <LocaleProvider>
+          <UriProvider>
+            <UserProvider>
+              <Routing/>
+            </UserProvider>
+          </UriProvider>
+        </LocaleProvider>
       </BrowserRouter>
     )
   }

@@ -1,0 +1,34 @@
+.SmapTitle{
+  font-size: 22px;
+  font-weight: normal;
+  display: inline-table;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+
+  color: #0088cc;
+  border-bottom: 1px solid #0088cc;
+}
+.titular{
+  font-size: 1.5rem;
+}
+.avatar{
+  border-radius: 75px;
+  width: 4rem;
+  height: 4rem;
+  margin-left: 15px;
+}
+.topCard{
+  background: #0088cc;
+  color: #fff;
+}
+.bg-smap-white{
+  background: #0088cc;
+  color: #fff;
+}
+.smapFieldLabel{
+  width: 180px;
+}
+.smapTextarea{
+  height: 150px;
+}

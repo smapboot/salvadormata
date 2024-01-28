@@ -1,0 +1,50 @@
+.SmapTimeline{
+  padding: 20px;
+}
+.SmapTimeline .title{
+  font-size: 32px;
+  display: inline-table;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: #0088cc;
+  border-bottom: 1px solid #0088cc;
+}
+.SmapTimeline .LineVertical{
+  margin: 0 50%;
+  border-left: 4px solid #0088cc52;
+  min-height: 100vh;
+}
+.SmapTimeline .point{
+  position: relative;
+  list-style-image: url("../../assets/images/timeline_point.png");
+  left: -22px;
+  height: 450px;
+}
+.SmapTimeline .card{
+  position: absolute;
+  width: 450px;
+  height: max-content;
+  text-align: left !important;
+}
+.SmapTimeline .year{
+  position: absolute;
+  display: block;
+  width: max-content;
+  color: rgba(0, 136, 204, 0.84);
+}
+.SmapTimeline .cardLeft{
+  float: left;
+  right: 40px;
+}
+.SmapTimeline .cardRight{
+  float: right;
+  margin-left: 100%;
+}
+.listChild{
+  list-style-type: none !important;
+}
+.listChild li{
+  list-style-type: none !important;
+  font-size: 12px;
+}

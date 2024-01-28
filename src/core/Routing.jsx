@@ -8,13 +8,14 @@ import { MockLoremParagrafs } from "../mocks/MockLoremParagrafs";
 const BancDeProves = React.lazy(() => import("../bundles/laboratori/BancDeProves"))
 
 // Layout WebApp
-const WebHeader = React.lazy(() => import("../components/layout/header/WebHeader"))
+const WebHeader = React.lazy(() => import("../bundles/personal/SalvadorMata"))
 const WebContent = React.lazy(() => import("../components/layout/content/WebContent"))
 const WebFooter = React.lazy(() => import("../components/layout/footer/WebFooter"))
 
 // Continguts dinàmics
 const Home = React.lazy(() => import("../pages/Home"))
 const UserController = React.lazy(() => import("../bundles/user/UserController"))
+const Curriculum = React.lazy(() => import("../bundles/curriculum/Curriculum"))
 
 const WebApp = (props) => {
   const {
@@ -50,7 +51,7 @@ const Routing = () => {
     <>
       <Suspense fallback={loading}>
         <Routes>
-          <Route path="/" element={<WebApp element={<Home />} />}/>
+          <Route path="/" element={<WebApp element={<Curriculum />} singlePage={true} />}/>
           <Route path="/home/single-page" element={<WebApp element={<Home />} singlePage={true} />}/>
           <Route path="/home/two-columns" element={
             <WebApp
@@ -69,6 +70,7 @@ const Routing = () => {
           />
           <Route path="/user/*" name="User" element={<UserController/>}/>
           <Route path="/laboratori" name="I+D" element={<BancDeProves/>}/>
+          <Route path="/cv" name="Salvador Mata | CV" element={<WebApp element={<Curriculum />} singlePage={true} />}/>
         </Routes>
       </Suspense>
     </>

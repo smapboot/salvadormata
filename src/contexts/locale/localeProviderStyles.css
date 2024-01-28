@@ -1,0 +1,41 @@
+.labelIdioma .actiu{
+  color: #0088cc;
+  font-weight: bold;
+}
+.labelIdioma:not(.actiu){
+  color: rgba(75, 79, 85, 0.48);
+}
+.smapSwitcher{
+  position: relative;
+  display: inline-table;
+  width: max-content;
+}
+.smapSwitch{
+  position: relative;
+  display: inline-table;
+  width: 45px;
+  border-radius: 20px;
+  background: #407e8b54;
+}
+.smapSwitchFlag{
+  margin: 0;
+  padding: 0 0 2px 0;
+  display: block;
+}
+.smapSwitchFlag img {
+  width: 18px;
+}
+.smapSwitchFlag img.actiu {
+  opacity: 0.3;
+}
+.smapSwitchFlag img:not(.actiu){
+  cursor: pointer;
+}
+.smapSwitchLeft{
+  position: relative;
+  float: left;
+}
+.smapSwitchRight{
+  position: relative;
+  float: right;
+}

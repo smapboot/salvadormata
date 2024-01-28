@@ -8,10 +8,6 @@ const WebContent = (props) => {
   // Props
   const {columns, singlePage, element, content_sidebar_left, content_sidebar_right} = props;
 
-  useEffect(() => {
-    DevHelper.console("WebContent > useEffect initialize props", props)
-  }, [])
-
   const renderLayout = () => {
     if ( columns ) {
       if ( columns === 2 ) {

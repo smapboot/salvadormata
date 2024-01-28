@@ -1,0 +1,19 @@
+.curriculumNav{
+  border-color: #0088cc;
+}
+.nav-item.curriculumNavItem{
+  border-color: #0088cc;
+}
+.nav-tabs .nav-link.curriculumNavLink{
+  color: #0088cc;
+}
+.nav-tabs .nav-link.active.curriculumNavLink{
+  border-color: #0088cc;
+  background: #0088cc;
+  color: #fff;
+}
+.nav-tabs .nav-link:hover.curriculumNavLink{
+  border-color: #0088cc;
+  background: rgba(0, 136, 204, 0.66);
+  color: #fff;
+}
